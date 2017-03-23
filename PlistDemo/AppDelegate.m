@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "InfoTableVC.h"
+#import "HomeNavVC.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    InfoTableVC *infoTableViewVC = [[InfoTableVC alloc] init];
+    HomeNavVC *nav = [[HomeNavVC alloc] initWithRootViewController:infoTableViewVC];
+    
+    self.window.rootViewController = nav;
     return YES;
 }
 

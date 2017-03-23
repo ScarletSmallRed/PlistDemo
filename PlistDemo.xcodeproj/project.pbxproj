@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2198DA1E83A27500828300 /* SearchCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2198D81E83A27500828300 /* SearchCenter.m */; };
+		3A2198DB1E83A27500828300 /* SearchCenter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A2198D91E83A27500828300 /* SearchCenter.xib */; };
 		3ABE60C51E820715006147FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE60C41E820715006147FE /* main.m */; };
 		3ABE60C81E820715006147FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE60C71E820715006147FE /* AppDelegate.m */; };
 		3ABE60CB1E820715006147FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE60CA1E820715006147FE /* ViewController.m */; };
@@ -15,6 +17,12 @@
 		3ABE60D31E820715006147FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE60D11E820715006147FE /* LaunchScreen.storyboard */; };
 		3ABE60DE1E820715006147FE /* PlistDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE60DD1E820715006147FE /* PlistDemoTests.m */; };
 		3ABE60E91E820715006147FE /* PlistDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE60E81E820715006147FE /* PlistDemoUITests.m */; };
+		3ABE60F81E820749006147FE /* InfoTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE60F71E820749006147FE /* InfoTableVC.m */; };
+		3ABE60FB1E8228C9006147FE /* HomeNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE60FA1E8228C9006147FE /* HomeNavVC.m */; };
+		3ABE60FE1E822F14006147FE /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE60FD1E822F14006147FE /* SearchVC.m */; };
+		3ABE61021E826583006147FE /* AddPlistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE61001E826583006147FE /* AddPlistVC.m */; };
+		3ABE61031E826583006147FE /* AddPlistVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE61011E826583006147FE /* AddPlistVC.xib */; };
+		3ABE61051E826B1B006147FE /* Button.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE61041E826B1B006147FE /* Button.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A2198D71E83A27500828300 /* SearchCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCenter.h; sourceTree = "<group>"; };
+		3A2198D81E83A27500828300 /* SearchCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCenter.m; sourceTree = "<group>"; };
+		3A2198D91E83A27500828300 /* SearchCenter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCenter.xib; sourceTree = "<group>"; };
 		3ABE60C01E820715006147FE /* PlistDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlistDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABE60C41E820715006147FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3ABE60C61E820715006147FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,16 @@
 		3ABE60E41E820715006147FE /* PlistDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlistDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABE60E81E820715006147FE /* PlistDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlistDemoUITests.m; sourceTree = "<group>"; };
 		3ABE60EA1E820715006147FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABE60F61E820749006147FE /* InfoTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableVC.h; sourceTree = "<group>"; };
+		3ABE60F71E820749006147FE /* InfoTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableVC.m; sourceTree = "<group>"; };
+		3ABE60F91E8228C9006147FE /* HomeNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNavVC.h; sourceTree = "<group>"; };
+		3ABE60FA1E8228C9006147FE /* HomeNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNavVC.m; sourceTree = "<group>"; };
+		3ABE60FC1E822F14006147FE /* SearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchVC.h; sourceTree = "<group>"; };
+		3ABE60FD1E822F14006147FE /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchVC.m; sourceTree = "<group>"; };
+		3ABE60FF1E826583006147FE /* AddPlistVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlistVC.h; sourceTree = "<group>"; };
+		3ABE61001E826583006147FE /* AddPlistVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlistVC.m; sourceTree = "<group>"; };
+		3ABE61011E826583006147FE /* AddPlistVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPlistVC.xib; sourceTree = "<group>"; };
+		3ABE61041E826B1B006147FE /* Button.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Button.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +126,20 @@
 				3ABE60C71E820715006147FE /* AppDelegate.m */,
 				3ABE60C91E820715006147FE /* ViewController.h */,
 				3ABE60CA1E820715006147FE /* ViewController.m */,
-				3ABE60CC1E820715006147FE /* Main.storyboard */,
-				3ABE60CF1E820715006147FE /* Assets.xcassets */,
+				3ABE60F91E8228C9006147FE /* HomeNavVC.h */,
+				3ABE60FA1E8228C9006147FE /* HomeNavVC.m */,
+				3ABE60F61E820749006147FE /* InfoTableVC.h */,
+				3ABE60F71E820749006147FE /* InfoTableVC.m */,
+				3ABE60FC1E822F14006147FE /* SearchVC.h */,
+				3ABE60FD1E822F14006147FE /* SearchVC.m */,
+				3ABE60FF1E826583006147FE /* AddPlistVC.h */,
+				3ABE61001E826583006147FE /* AddPlistVC.m */,
+				3A2198D71E83A27500828300 /* SearchCenter.h */,
+				3A2198D81E83A27500828300 /* SearchCenter.m */,
 				3ABE60D11E820715006147FE /* LaunchScreen.storyboard */,
-				3ABE60D41E820715006147FE /* Info.plist */,
+				3A2198D91E83A27500828300 /* SearchCenter.xib */,
+				3ABE61011E826583006147FE /* AddPlistVC.xib */,
+				3ABE60CC1E820715006147FE /* Main.storyboard */,
 				3ABE60C31E820715006147FE /* Supporting Files */,
 			);
 			path = PlistDemo;
@@ -117,6 +148,9 @@
 		3ABE60C31E820715006147FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3ABE60CF1E820715006147FE /* Assets.xcassets */,
+				3ABE61041E826B1B006147FE /* Button.xcassets */,
+				3ABE60D41E820715006147FE /* Info.plist */,
 				3ABE60C41E820715006147FE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -250,7 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ABE60D31E820715006147FE /* LaunchScreen.storyboard in Resources */,
+				3ABE61031E826583006147FE /* AddPlistVC.xib in Resources */,
+				3ABE61051E826B1B006147FE /* Button.xcassets in Resources */,
 				3ABE60D01E820715006147FE /* Assets.xcassets in Resources */,
+				3A2198DB1E83A27500828300 /* SearchCenter.xib in Resources */,
 				3ABE60CE1E820715006147FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,8 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2198DA1E83A27500828300 /* SearchCenter.m in Sources */,
+				3ABE60FB1E8228C9006147FE /* HomeNavVC.m in Sources */,
 				3ABE60CB1E820715006147FE /* ViewController.m in Sources */,
+				3ABE60F81E820749006147FE /* InfoTableVC.m in Sources */,
+				3ABE61021E826583006147FE /* AddPlistVC.m in Sources */,
 				3ABE60C81E820715006147FE /* AppDelegate.m in Sources */,
+				3ABE60FE1E822F14006147FE /* SearchVC.m in Sources */,
 				3ABE60C51E820715006147FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +556,7 @@
 				3ABE60EF1E820715006147FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3ABE60F01E820715006147FE /* Build configuration list for PBXNativeTarget "PlistDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +565,7 @@
 				3ABE60F21E820715006147FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3ABE60F31E820715006147FE /* Build configuration list for PBXNativeTarget "PlistDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +574,7 @@
 				3ABE60F51E820715006147FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
